@@ -26,3 +26,7 @@ A modern, pixel-perfect, and fully responsive landing page built with a focus on
 - Building an accessible, responsive modal popup with backdrop and focus management.
 - Adding interactive product demos on landing pages to improve user engagement and conversion.
 - Handling basic DOM manipulation with JavaScript for real-time user input.
+## 🚀 Live Demo
+**Check it out here:** [https://sanawebdeveloper098-dev.github.io/focusflow-landing-page/](https://sanawebdeveloper098-dev.github.io/focusflow-landing-page/)
+
+Click "Try Task Tracker Demo" on the landing page to see the interactive popup in action.
