@@ -1,32 +1,16 @@
-# FocusFlow - Smart Productivity Platform Landing Page
+# React + Vite
 
-A modern, pixel-perfect, and fully responsive landing page built with a focus on clean layout design, fluid responsiveness, and smooth interactive animations using HTML, CSS & JavaScript.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-## ✨ Features & Highlights
+Currently, two official plugins are available:
 
-### 📱 1. Responsive Design
-- **Mobile-First Approach**: Fully optimized for all screen sizes (Desktops, Tablets, and Mobile phones).
-- **Flexible Layouts**: Built using CSS Grid and Flexbox to ensure elements adapt seamlessly without breaking.
-- **Fluid Typography**: Text scales beautifully across different viewports.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-### 🎬 2. Animations & Interactivity
-- **Hover Effects**: Interactive micro-interactions on CTA buttons (`Start for Free`, `Explore Features`, `Get Started`) and navigation links using CSS transitions.
-- **Card & Image Hover**: Soft lifting or scale animations on the main dashboard preview image.
-- **Keyframe Animations**: Smooth fade-in or slide-up effects triggered on page load using `@keyframes`.
-- **Interactive Modal Popup**: Added a "Task Tracker Demo" popup. Users can enter tasks and click "Add Task" directly from the landing page to experience the core feature without leaving the page. Includes backdrop blur and smooth open/close animations.
+## React Compiler
 
-### 🛠️ Tech Stack Used
-- **HTML5**: Semantic markup for better SEO and accessibility.
-- **CSS3**: Custom styling, variables, grid/flexbox layouts, media queries, and animations.
-- **JavaScript**: Used for modal functionality and task input handling in the demo popup.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 💡 What I Learned From This Project
-- How to manage consistent spacing and a clean color palette (Deep Greens and Soft Off-Whites) using CSS variables.
-- Implementing responsive design without compromising the visual hierarchy of the hero section using pure CSS Media Queries.
-- Building an accessible, responsive modal popup with backdrop and focus management.
-- Adding interactive product demos on landing pages to improve user engagement and conversion.
-- Handling basic DOM manipulation with JavaScript for real-time user input.
-## 🚀 Live Demo
-**Check it out here:** [https://sanawebdeveloper098-dev.github.io/focusflow-landing-page/](https://sanawebdeveloper098-dev.github.io/focusflow-landing-page/)
+## Expanding the Oxlint configuration
 
-Click "Try Task Tracker Demo" on the landing page to see the interactive popup in action.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
